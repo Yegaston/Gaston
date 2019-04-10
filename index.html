@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Own Css -->
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" rel="stylesheet">
+
+    <title>Gaston Graciani</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/"><i class="fas fa-home"></i> Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Yegaston" target="_blank"><i class="fab fa-github-square"></i> Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/gastongraciani/"><i class="fab fa-linkedin" target="_blank"></i> linkedin</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section>
+        <article class="">
+            <div class="container margin-2 d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-sm">
+                        <img class="img-thumbnail rounded mx-auto d-block"
+                            src="https://avatars0.githubusercontent.com/u/39235181?s=460&v=4" alt="Me">
+                    </div>
+
+                    <div class="col-sm text-center margin-1">
+                        <h1>Gaston Graciani</h1>
+                        <h2>Desarrollador</h2>
+                        <p>Gastongraciani@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div class="container">
+
+                <h1 class="text-center margin-1">Habilidades</h1>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    HTML5 y CSS3
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                Maquetación web, usando HTML 5 y su sintaxis semantica. También el uso de flex box, y
+                                interacción basica mediante el uso de CSS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Javascript
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Capacidad de poder crear la interaccion de una aplicacion, mediante el uso de
+                                Javascript. <br>
+                                Ejemplos: <span><a href="gymapp.gastongraciani.me">gymapp.gastongraciani.me</a></span> y
+                                mas en mi <span><a href="https://github.com/Yegaston">Github</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Phonegap/Cordova
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Creacion de Aplicaciones moviles, usando Cordova/Phonegap. La versatilidad de esta
+                                herramienta, permite usar conocimientos en HTML y Javascript para crear aplicaciones en
+                                android y iOs, con un unico desarrollo. Tambien, permite el uso de frameworks como
+                                Ionic, Framework 7, para crear aplicaciones que parecen nativas al sistema operativo
+                                host.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer container-fluid font-small black darken-3 margin-1">
+
+        <!-- Footer Elements -->
+        <div class="">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+                        <a href="https://github.com/Yegaston" class="fb-ic" target="_blank">
+                            <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a href="https://www.linkedin.com/in/gastongraciani/" class="li-ic" target="_blank">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+
+                        <a href="gastongraciani@gmail.com" target="_blank">
+                            <i class="fas fa-envelope fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="container-fluid footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="gastongraciani.me"> Gastongraciani.me</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Js -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+.margin-2 {
+    margin: 2em;
+}
+
+.margin-1 {
+    margin: 1em;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vh;
+    line-height: normal;
+    color: #4F4F4F;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vh;
+    line-height: normal;
+    color: #4F4F4F;
+}
+
+body {
+    position: relative;
+  }
